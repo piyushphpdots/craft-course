@@ -1,0 +1,46 @@
+{
+    "name": "piyush2359/craft-course",
+    "description": "Test Plugin",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft course"
+    ],
+    "support": {
+        "docs": "https://github.com/https://github.com/piyushphpdots/craft-course/craft-course/blob/master/README.md",
+        "issues": "https://github.com/https://github.com/piyushphpdots/craft-course/craft-course/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHPDots Technologies",
+            "homepage": "https://phpdots.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "require-dev": {
+      "craftcms/cms": "^3.2.0",
+      "codeception/codeception": "^3.0",
+      "vlucas/phpdotenv": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "piyush2359\\craftcourse\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Craft Course",
+        "handle": "craft-course",
+        "developer": "PHPDots Technologies",
+        "developerUrl": "https://phpdots.com",
+        "documentationUrl": "https://github.com/https://github.com/piyushphpdots/craft-course/craft-course/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/https://github.com/piyushphpdots/craft-course/craft-course/master/CHANGELOG.md",
+        "class": "piyush2359\\craftcourse\\CraftCourse"
+    }
+}
